@@ -1,0 +1,50 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 24px;
+}
+
+.grid-item {
+  background-color: var(--surface-color);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row .sales-summary-container {
+  flex: 2;
+}
+
+.top-row .visitor-insights-container {
+  flex: 1;
+}
+
+.middle-row .grid-item {
+  flex: 1;
+}
+
+.bottom-row .grid-item {
+  flex: 1;
+}
+
+.users-section {
+  background-color: var(--surface-color);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  margin-top: 10px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
